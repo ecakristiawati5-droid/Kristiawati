@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+
+<body>
+  
+</body>
+
+</html><!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Beauty selamat datang di eca  Shop💖</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+<div class="navbar">
+<h1>selamat datang di eca  Shop💖</h1>
+<input type="text" placeholder="Cari serum, cushion...">
+</div>
+</header>
+
+<!-- TOKO -->
+<section class="toko fade-in">
+<h2>Beauty Pink Official</h2>
+<p>jln.Bantarkalong No.10, Bihbul ,Jawa Barat, Indonesia</p>
+</section>
+
+<!-- PRODUK -->
+<section class="produk-container">
+
+<div class="produk fade-in">
+<img src="https://images.unsplash.com/photo-1612817288484-6f916006741a">
+<h3>Serum Glow Vitamin C</h3>
+<p class="harga">Rp 50.000</p>
+<p class="rating">⭐ 4.8 | Terjual 120</p>
+<button onclick="tambahKeranjang('Serum Glow',50000)">+ Keranjang</button>
+</div>
+
+<div class="produk fade-in">
+<img src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519">
+<h3>Cushion Matte Pink</h3>
+<p class="harga">Rp 80.000</p>
+<p class="rating">⭐ 4.9 | Terjual 200</p>
+<button onclick="tambahKeranjang('Cushion Matte',80000)">+ Keranjang</button>
+</div>
+
+</section>
+
+<!-- KERANJANG + CHECKOUT -->
+<section class="keranjang fade-in">
+<h2>🛒 Keranjang Belanja</h2>
+<ul id="listKeranjang"></ul>
+<h3>Total: Rp <span id="total">0</span></h3>
+
+<h3>🧾 Checkout</h3>
+<input type="text" id="nama" placeholder="Nama Lengkap">
+<input type="text" id="alamat" placeholder="Alamat Lengkap">
+<button onclick="checkout()">Checkout</button>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
